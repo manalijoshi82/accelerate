@@ -49,9 +49,10 @@ function accelerate_scripts() {
 	wp_enqueue_style( 'accelerate-style', get_stylesheet_uri() );
     wp_enqueue_style( 'accelerate-google-fonts', '//fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,400i,600,600i,700,700i' );
 }
+
 add_action( 'wp_enqueue_scripts', 'accelerate_scripts' );
 
-// Register widget area
+//Register widget area
 function accelerate_widgets_init() {
 	register_sidebar( array(
 		'name'          => __( 'Widget Area', 'accelerate' ),
