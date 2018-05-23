@@ -111,3 +111,141 @@ a{
 .individual-featured-work{
     margin-right:20px;
 }
+
+
+#secondary{
+    
+    width: 40%;
+    float: right;
+    margin-top: -430px;
+    text-align: left;
+}
+
+.tweets {
+    list-style-type: none;
+    margin: 2em 0 .5em;
+}
+
+.tweets li {
+    padding-top:30px;
+}
+
+.widget-title{
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+
+/*contact form */
+
+.nf-field-label label{
+    font-weight: 500;
+    font-size: .9em;
+}
+
+#nf-field-4 {
+    background-color: #45ac9d;
+    float: right;
+}
+
+.main-content{  
+    margin: auto;
+    flex-grow: 0;
+}
+
+
+/* custom about page */
+
+.about_us{
+    padding-bottom:50px;
+}
+
+.about-hero-text{
+    width: 40%;
+    margin: auto;
+}
+
+.about-hero-text p{
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.services-intro{
+    margin: auto;
+    text-align: center;
+    width: 55%;
+    margin-top: -50px;
+}
+
+.services-intro h2{
+    margin: 0;
+}
+
+.odd img{
+    float:left;
+    padding-top: 20px;
+}
+
+.even img{
+    float: right;
+    padding-top: 50px;
+}
+
+.even, .odd {
+    padding-top: 60px;
+}
+.descriptionEven {
+    width: 75%;
+    margin-right: 200px;
+}
+
+.descriptionOdd{
+    width: 80%;
+    margin-left: 200px;
+}
+
+.descriptionOdd h4 , .descriptionEven h4{
+    margin-top: 0;
+    font-weight: 200;
+    font-size: .8em;
+}
+
+.contactQuestion{
+    text-align: center;
+    padding-top: 30px;
+}   
+
+.contactQuestion h2{
+    display: inline;
+}
+
+.contactQuestion button{
+    margin-left: 50px;
+    background-color: #45ac9d;
+    width: 150px;
+    height: 50px;
+    font-size: 1em;
+    color:#fff;
+    border-radius: 4px;
+}
+
+/* 404 page */
+
+.page-title{
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+    font-size:3em;
+}
+
+.page-wrapper{
+    margin: 0 auto;
+    width: 600px;
+}
+
+.page-content h2{
+    font-family: 'Londrina Solid';
+    font-size: 1.5em;
+    text-align: center;
+}
