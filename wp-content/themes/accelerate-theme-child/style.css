@@ -249,3 +249,19 @@ a{
     font-size: 1.5em;
     text-align: center;
 }
+
+
+/* social nav */
+
+.menu-social-media-nav-container span{
+    display: none;
+}
+
+#menu-social-media-nav {
+    list-style: none;
+}
+
+
+#menu-social-media-nav li{
+    display: inline;
+}
